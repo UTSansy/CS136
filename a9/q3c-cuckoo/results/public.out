@@ -1,0 +1,22 @@
+SUCCESS: key "alice" inserted into the cuckoo filter.
+SUCCESS: key "bob" inserted into the cuckoo filter.
+Bucket   0: - - 
+Bucket   1: - - 
+Bucket   2: - - 
+Bucket   3: bob - 
+Bucket   4: - - 
+Bucket   5: - - 
+Bucket   6: alice - 
+Bucket   7: - - 
+key "alice" is not in the cuckoo filter.
+key "charles" is not in the cuckoo filter.
+SUCCESS: key "alice" removed from the cuckoo filter.
+SUCCESS: key "charles" removed from the cuckoo filter.
+Bucket   0: - - 
+Bucket   1: - - 
+Bucket   2: - - 
+Bucket   3: bob - 
+Bucket   4: - - 
+Bucket   5: - - 
+Bucket   6: alice - 
+Bucket   7: - - 
