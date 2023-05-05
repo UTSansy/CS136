@@ -1,0 +1,46 @@
+/////////////////////////////////////////////////////////////////////////////////////////
+// INTEGRITY STATEMENT (v4)
+//
+// By signing your name and ID below you are stating that you have agreed
+// to the online academic integrity statement posted on edX:
+// (Course > Assignments > Assignment Information & Policies > Academic Integrity Policy)
+/////////////////////////////////////////////////////////////////////////////////////////
+// I received help from and/or collaborated with:
+
+// none
+//
+// Name: Junyi Gao
+// login ID: j25gao
+//////////////////////////////////////////////////////////////////////////////////////////
+
+a) efficiency is O(n)
+
+Let n be the length of the array
+Sum[i=0..n-1]:O(1)
+= O(n)
+
+
+b) efficiency is O(n)
+
+Let n be the length of array
+T(n) = O(1) + T(n/2) + T(n/2)
+     = O(n)
+
+
+c) efficiency is O(mn)
+
+Let n be the length of array 1, m be the length of array 2
+Inner Loop: Sum[j=0..m-1]:O(1)
+            = O(m)
+Outer Loop: Sum[i=0..n-1]:(O(m) + O(m) + O(1))
+            = O(nm)
+
+
+d) efficiency is O(nlogn)
+
+Let n be the length of array
+Inner Loop: Sum[j=0..n-1]:O(1)
+            = O(n)
+Outer Loop: Sum[i=1..logn]:O(n)
+            = O(nlogn)
+
